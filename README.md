@@ -11,6 +11,7 @@
  ## How to Run
 
  (how to run the application, briefly)
+<<<<<<< HEAD
  1.clone project in github    
  < git clone https://github.com/bbestthi/django-polls-.git    
  2.open terminal for go to website    
@@ -19,4 +20,9 @@
  4.run server    
  < py manage.py runserver    
  
+=======
+ 1.go to mysite
+ 2.open terminal
+ 3.cmd> run manage.py runserver
+>>>>>>> 0c06010750c0c9348d77e620ab36a934a7a83012
 
