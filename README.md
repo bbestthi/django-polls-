@@ -14,3 +14,4 @@
  1.go to mysite
  2.open terminal
  3.cmd> run manage.py runserver
+
