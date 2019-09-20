@@ -1,1 +1,1 @@
-# django-polls-
+part 1 creation a directory in djangopolls 
