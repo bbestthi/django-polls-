@@ -10,7 +10,7 @@
 
  ## How to Run
 
- (how to run the application, briefly)
+ (how to run the application, briefly)    
  1.clone code in github    
  > git clone https://github.com/bbestthi/django-polls-.git    
  2.open terminal    
