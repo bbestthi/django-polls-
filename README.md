@@ -13,4 +13,4 @@
  (how to run the application, briefly)
  1.go to mysite
  2.open terminal
- 3.cmd> run manage.py runserver
+ 3.cmd> py manage.py runserver
