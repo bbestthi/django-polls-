@@ -6,4 +6,21 @@
 {% endfor %}
 </ul>
 
+<table style="width:60% ; border: blue 2px">
+<tr>
+<td style="border: blue 2px">question</td>
+<td style="border: blue 2px">choice</td>
+<td style="border: blue 2px">votes</td>
+</tr>
+{% for choice in question.choice_set.all %}
+<td style="border:2px solid blue">{{question.question_text}}</td>
+<td style="border:solid blue 2px">{{choice.choice_text}}</td>
+<td style="border:solid blue 2px">{{choice.votes}}</td>
+</tr>
+{% endfor %}
+
+
+</table>
+
 <a href="{% url 'polls:detail' question.id %}">Vote again?</a>
+<a href="{% url 'polls:index' %}">back to question</a>
